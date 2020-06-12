@@ -18,8 +18,8 @@ async def main():
     await client.send_message('me', 'Hello !!!!!')
 
 
-SLEEP_TIME_1 = 100
-SLEEP_TIME_2 = 100
+SLEEP_TIME_1 = 20
+SLEEP_TIME_2 = 20
 with client:
     client.loop.run_until_complete(main())
 client.connect()
